@@ -1,0 +1,473 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - complementary "Quick actions" [ref=e3]:
+    - button "Search" [ref=e4]:
+      - generic [aria-hidden]: Search
+    - button "Create" [ref=e8]:
+      - generic [aria-hidden]: Create
+    - button "Favourites" [ref=e10]:
+      - generic [aria-hidden]: Favourites
+    - button "Calendar" [ref=e13]:
+      - generic [aria-hidden]: Calendar
+    - button "Mobile app" [ref=e16]:
+      - generic [aria-hidden]: Mobile app
+    - button "Send" [ref=e19]:
+      - generic [aria-hidden]: Send
+    - button "Share" [ref=e23]:
+      - generic [aria-hidden]: Share
+    - button "Export" [ref=e30]:
+      - generic [aria-hidden]: Export
+    - separator [ref=e34]
+    - button "Settings" [ref=e35]:
+      - generic [aria-hidden]: Settings
+    - button "Toggle light and dark theme" [ref=e39]:
+      - generic: Light mode
+  - generic [ref=e46]:
+    - banner [ref=e47]:
+      - link "Rapport home" [ref=e48] [cursor=pointer]:
+        - /url: /
+        - generic [aria-hidden] [ref=e49]: R
+        - generic [ref=e50]: rapport
+      - navigation "Primary" [ref=e52]:
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - link "Overview" [ref=e55] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e56]:
+            - link "Pipeline" [ref=e57] [cursor=pointer]:
+              - /url: /pipeline
+          - listitem [ref=e58]:
+            - link "Customers" [ref=e59] [cursor=pointer]:
+              - /url: /customers
+          - listitem [ref=e60]:
+            - link "Schedule" [ref=e61] [cursor=pointer]:
+              - /url: /schedule
+          - listitem [ref=e62]:
+            - link "Finance" [ref=e63] [cursor=pointer]:
+              - /url: /finance
+          - listitem [ref=e64]:
+            - link "Growth" [ref=e65] [cursor=pointer]:
+              - /url: /growth
+          - listitem [ref=e66]:
+            - link "Projects" [ref=e67] [cursor=pointer]:
+              - /url: /projects
+      - generic [ref=e68]:
+        - button "Inbox" [ref=e69]
+        - button "Notifications, 1 unread" [ref=e73]
+        - 'button "Account: Sofia Reyes" [ref=e78]':
+          - img "Sofia Reyes" [ref=e79]
+    - main [ref=e80]:
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - heading "Sales Overview" [level=1] [ref=e83]
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - generic [ref=e93]:
+                - paragraph [ref=e94]:
+                  - text: $112,560
+                  - generic [ref=e95]: +5% vs last month
+                - paragraph [ref=e96]: Won this month
+            - listitem [ref=e97]:
+              - generic [ref=e100]:
+                - paragraph [ref=e101]: $1,139,100
+                - paragraph [ref=e102]: Open pipeline
+            - listitem [ref=e103]:
+              - generic [ref=e108]:
+                - paragraph [ref=e109]: 75%
+                - paragraph [ref=e110]: Win rate, closed deals
+        - generic [ref=e111]:
+          - region [ref=e112]:
+            - generic [ref=e113]:
+              - heading "Revenue" [level=2] [ref=e114]
+              - generic [ref=e115]:
+                - group "Date range" [ref=e116]:
+                  - button "6M" [ref=e117]
+                  - button "12M" [pressed] [ref=e118]
+                - button "More options" [ref=e119]
+                - button "Open full view" [ref=e124]
+            - generic [ref=e128]:
+              - paragraph [ref=e129]: $1,014,640
+              - paragraph [ref=e130]: won in 12 months · 0 of 12 at target
+            - list "Legend" [ref=e131]:
+              - listitem [ref=e132]: Won revenue
+              - listitem [ref=e134]: Monthly target · $156.7K
+            - group "Revenue chart. Use left and right arrow keys to inspect each month." [ref=e136]:
+              - img [aria-hidden] [ref=e137]:
+                - generic [ref=e138]: $0
+                - generic [ref=e140]: $100K
+                - generic [ref=e142]: $200K
+                - generic [ref=e146]: Nov
+                - generic [ref=e147]: Dec
+                - generic [ref=e148]: Jan
+                - generic [ref=e149]: Feb
+                - generic [ref=e150]: Mar
+                - generic [ref=e151]: Apr
+                - generic [ref=e152]: May
+                - generic [ref=e153]: Jun
+                - generic [ref=e154]: Jul
+                - generic [ref=e155]: Aug
+                - generic [ref=e156]: Sep
+                - generic [ref=e157]: Oct
+              - table [ref=e158]:
+                - caption [ref=e159]: Revenue won per month against the monthly team target
+                - rowgroup [ref=e160]:
+                  - row [ref=e161]:
+                    - columnheader "Month" [ref=e162]
+                    - columnheader "Won" [ref=e163]
+                    - columnheader "Target" [ref=e164]
+                - rowgroup [ref=e165]:
+                  - row [ref=e166]:
+                    - rowheader "Nov" [ref=e167]
+                    - cell "$99,340" [ref=e168]
+                    - cell "$156,700" [ref=e169]
+                  - row [ref=e170]:
+                    - rowheader "Dec" [ref=e171]
+                    - cell "$52,120" [ref=e172]
+                    - cell "$156,700" [ref=e173]
+                  - row [ref=e174]:
+                    - rowheader "Jan" [ref=e175]
+                    - cell "$86,240" [ref=e176]
+                    - cell "$156,700" [ref=e177]
+                  - row [ref=e178]:
+                    - rowheader "Feb" [ref=e179]
+                    - cell "$111,540" [ref=e180]
+                    - cell "$156,700" [ref=e181]
+                  - row [ref=e182]:
+                    - rowheader "Mar" [ref=e183]
+                    - cell "$62,160" [ref=e184]
+                    - cell "$156,700" [ref=e185]
+                  - row [ref=e186]:
+                    - rowheader "Apr" [ref=e187]
+                    - cell "$102,400" [ref=e188]
+                    - cell "$156,700" [ref=e189]
+                  - row [ref=e190]:
+                    - rowheader "May" [ref=e191]
+                    - cell "$57,850" [ref=e192]
+                    - cell "$156,700" [ref=e193]
+                  - row [ref=e194]:
+                    - rowheader "Jun" [ref=e195]
+                    - cell "$39,640" [ref=e196]
+                    - cell "$156,700" [ref=e197]
+                  - row [ref=e198]:
+                    - rowheader "Jul" [ref=e199]
+                    - cell "$115,330" [ref=e200]
+                    - cell "$156,700" [ref=e201]
+                  - row [ref=e202]:
+                    - rowheader "Aug" [ref=e203]
+                    - cell "$67,990" [ref=e204]
+                    - cell "$156,700" [ref=e205]
+                  - row [ref=e206]:
+                    - rowheader "Sep" [ref=e207]
+                    - cell "$107,470" [ref=e208]
+                    - cell "$156,700" [ref=e209]
+                  - row [ref=e210]:
+                    - rowheader "Oct" [ref=e211]
+                    - cell "$112,560" [ref=e212]
+                    - cell "$156,700" [ref=e213]
+          - region [ref=e214]:
+            - generic [ref=e215]:
+              - heading "Hot deals" [level=2] [ref=e216]
+              - generic [ref=e217]:
+                - generic [ref=e218]: by weighted value
+                - button "Add deal" [ref=e219]
+                - button "Open pipeline" [ref=e221]
+            - list [ref=e225]:
+              - listitem [ref=e226]:
+                - article [ref=e227]:
+                  - generic [ref=e228]:
+                    - paragraph [ref=e229]: Closes Nov 1
+                    - button "More options for Fleet licence expansion" [ref=e230]
+                  - generic [ref=e235]:
+                    - heading "Fleet licence expansion" [level=3] [ref=e236]
+                    - paragraph [ref=e237]: Kumo Retail
+                  - generic [ref=e238]:
+                    - generic [ref=e239]:
+                      - paragraph [ref=e240]: $56,180
+                      - paragraph [ref=e241]: Closing · 90%
+                    - 'img "Owners: Hanna, Amara, Rohan" [ref=e242]':
+                      - img "Hanna Lindqvist" [ref=e243]
+                      - img "Amara Okafor" [ref=e244]
+                      - img "Rohan Mehta" [ref=e245]
+              - listitem [ref=e246]:
+                - article [ref=e247]:
+                  - generic [ref=e248]:
+                    - paragraph [ref=e249]: Closes Nov 20
+                    - button "More options for Integration build" [ref=e250]
+                  - generic [ref=e255]:
+                    - heading "Integration build" [level=3] [ref=e256]
+                    - paragraph [ref=e257]: Aldercrest Hotels
+                  - generic [ref=e258]:
+                    - generic [ref=e259]:
+                      - paragraph [ref=e260]: $54,940
+                      - paragraph [ref=e261]: Closing · 90%
+                    - 'img "Owners: Hanna, Amara, Sofia" [ref=e262]':
+                      - img "Hanna Lindqvist" [ref=e263]
+                      - img "Amara Okafor" [ref=e264]
+                      - img "Sofia Reyes" [ref=e265]
+              - listitem [ref=e266]:
+                - article [ref=e267]:
+                  - generic [ref=e268]:
+                    - paragraph [ref=e269]: Closes Nov 26
+                    - button "More options for Premium SLA" [ref=e270]
+                  - generic [ref=e275]:
+                    - heading "Premium SLA" [level=3] [ref=e276]
+                    - paragraph [ref=e277]: Aldercrest Hotels
+                  - generic [ref=e278]:
+                    - generic [ref=e279]:
+                      - paragraph [ref=e280]: $54,450
+                      - paragraph [ref=e281]: Closing · 90%
+                    - 'img "Owners: Sofia, Amara, Rohan" [ref=e282]':
+                      - img "Sofia Reyes" [ref=e283]
+                      - img "Amara Okafor" [ref=e284]
+                      - img "Rohan Mehta" [ref=e285]
+              - listitem [ref=e286]:
+                - article [ref=e287]:
+                  - generic [ref=e288]:
+                    - paragraph [ref=e289]: Closes Nov 26
+                    - button "More options for Annual renewal" [ref=e290]
+                  - generic [ref=e295]:
+                    - heading "Annual renewal" [level=3] [ref=e296]
+                    - paragraph [ref=e297]: Sable Freight
+                  - generic [ref=e298]:
+                    - generic [ref=e299]:
+                      - paragraph [ref=e300]: $47,100
+                      - paragraph [ref=e301]: Closing · 90%
+                    - 'img "Owners: Theo, Amara, Rohan" [ref=e302]':
+                      - img "Theo Adeyemi" [ref=e303]
+                      - img "Amara Okafor" [ref=e304]
+                      - img "Rohan Mehta" [ref=e305]
+              - listitem [ref=e306]:
+                - article [ref=e307]:
+                  - generic [ref=e308]:
+                    - paragraph [ref=e309]: Closes Nov 1
+                    - button "More options for Seat true-up" [ref=e310]
+                  - generic [ref=e315]:
+                    - heading "Seat true-up" [level=3] [ref=e316]
+                    - paragraph [ref=e317]: Aldercrest Hotels
+                  - generic [ref=e318]:
+                    - generic [ref=e319]:
+                      - paragraph [ref=e320]: $55,430
+                      - paragraph [ref=e321]: Negotiation · 70%
+                    - 'img "Owners: Sofia, Amara, Rohan" [ref=e322]':
+                      - img "Sofia Reyes" [ref=e323]
+                      - img "Amara Okafor" [ref=e324]
+                      - img "Rohan Mehta" [ref=e325]
+              - listitem [ref=e326]:
+                - article [ref=e327]:
+                  - generic [ref=e328]:
+                    - paragraph [ref=e329]: Closes Nov 5
+                    - button "More options for Regional expansion" [ref=e330]
+                  - generic [ref=e335]:
+                    - heading "Regional expansion" [level=3] [ref=e336]
+                    - paragraph [ref=e337]: Sable Freight
+                  - generic [ref=e338]:
+                    - generic [ref=e339]:
+                      - paragraph [ref=e340]: $49,040
+                      - paragraph [ref=e341]: Negotiation · 70%
+                    - 'img "Owners: Theo, Hanna, Rohan" [ref=e342]':
+                      - img "Theo Adeyemi" [ref=e343]
+                      - img "Hanna Lindqvist" [ref=e344]
+                      - img "Rohan Mehta" [ref=e345]
+          - region [ref=e346]:
+            - generic [ref=e347]:
+              - heading "Team quota" [level=2] [ref=e348]
+              - button "More options" [ref=e349]
+            - img "24% of Q4 quota won" [ref=e354]:
+              - generic [ref=e358]:
+                - paragraph [ref=e359]: 24%
+                - paragraph [ref=e360]: of Q4 quota
+            - generic [ref=e361]:
+              - generic [ref=e362]:
+                - term [ref=e363]: Won
+                - definition [ref=e364]: $112.6K
+              - generic [ref=e365]:
+                - term [ref=e366]: Quota
+                - definition [ref=e367]: $470K
+              - generic [ref=e368]:
+                - term [ref=e369]: Days left
+                - definition [ref=e370]: "67"
+            - paragraph [ref=e371]: Needs $5.3K a day to land it
+          - region [ref=e372]:
+            - generic [ref=e373]:
+              - heading "Stage mix" [level=2] [ref=e374]
+              - button "Open pipeline" [ref=e375]
+            - generic [ref=e379]:
+              - paragraph [ref=e380]: $1,139,100
+              - paragraph [ref=e381]: open across 47 deals
+            - img "Share of open pipeline value by stage" [ref=e382]
+            - table [ref=e387]:
+              - rowgroup [ref=e388]:
+                - row [ref=e389]:
+                  - columnheader "Stage" [ref=e390]
+                  - columnheader "Deals" [ref=e391]
+                  - columnheader "Value" [ref=e392]
+                  - columnheader "Share" [ref=e393]
+              - rowgroup [ref=e394]:
+                - row [ref=e395]:
+                  - rowheader "Qualification" [ref=e396]
+                  - cell "10" [ref=e399]
+                  - cell "$277.6K" [ref=e400]
+                  - cell "24%" [ref=e401]
+                - row [ref=e402]:
+                  - rowheader "Proposal" [ref=e403]
+                  - cell "9" [ref=e406]
+                  - cell "$117K" [ref=e407]
+                  - cell "10%" [ref=e408]
+                - row [ref=e409]:
+                  - rowheader "Negotiation" [ref=e410]
+                  - cell "12" [ref=e413]
+                  - cell "$325.3K" [ref=e414]
+                  - cell "29%" [ref=e415]
+                - row [ref=e416]:
+                  - rowheader "Closing" [ref=e417]
+                  - cell "16" [ref=e420]
+                  - cell "$419.2K" [ref=e421]
+                  - cell "37%" [ref=e422]
+        - generic [ref=e423]:
+          - region [ref=e425]:
+            - generic [ref=e426]:
+              - heading "Team leaderboard" [level=2] [ref=e427]
+              - generic [ref=e428]:
+                - generic [ref=e429]: Won this month
+                - button "More options" [ref=e430]
+                - button "Open full view" [ref=e435]
+            - list [ref=e439]:
+              - listitem [ref=e440]:
+                - generic [ref=e441]: "1"
+                - img "Sofia Reyes" [ref=e442]
+                - generic [ref=e443]:
+                  - generic [ref=e444]:
+                    - paragraph [ref=e445]: Sofia Reyes
+                    - paragraph [ref=e446]: $94,410
+                  - progressbar "Sofia Reyes monthly quota" [ref=e447]
+                  - paragraph [ref=e449]: 270% of monthly quota · 3 deals
+              - listitem [ref=e450]:
+                - generic [ref=e451]: "2"
+                - img "Amara Okafor" [ref=e452]
+                - generic [ref=e453]:
+                  - generic [ref=e454]:
+                    - paragraph [ref=e455]: Amara Okafor
+                    - paragraph [ref=e456]: $18,150
+                  - progressbar "Amara Okafor monthly quota" [ref=e457]
+                  - paragraph [ref=e459]: 73% of monthly quota · 1 deal
+              - listitem [ref=e460]:
+                - generic [ref=e461]: "3"
+                - img "Theo Adeyemi" [ref=e462]
+                - generic [ref=e463]:
+                  - generic [ref=e464]:
+                    - paragraph [ref=e465]: Theo Adeyemi
+                    - paragraph [ref=e466]: $0
+                  - progressbar "Theo Adeyemi monthly quota" [ref=e467]
+                  - paragraph [ref=e468]: 0% of monthly quota · 0 deals
+              - listitem [ref=e469]:
+                - generic [ref=e470]: "4"
+                - img "Rohan Mehta" [ref=e471]
+                - generic [ref=e472]:
+                  - generic [ref=e473]:
+                    - paragraph [ref=e474]: Rohan Mehta
+                    - paragraph [ref=e475]: $0
+                  - progressbar "Rohan Mehta monthly quota" [ref=e476]
+                  - paragraph [ref=e477]: 0% of monthly quota · 0 deals
+              - listitem [ref=e478]:
+                - generic [ref=e479]: "5"
+                - img "Hanna Lindqvist" [ref=e480]
+                - generic [ref=e481]:
+                  - generic [ref=e482]:
+                    - paragraph [ref=e483]: Hanna Lindqvist
+                    - paragraph [ref=e484]: $0
+                  - progressbar "Hanna Lindqvist monthly quota" [ref=e485]
+                  - paragraph [ref=e486]: 0% of monthly quota · 0 deals
+          - region [ref=e487]:
+            - generic [ref=e488]:
+              - heading "Today" [level=2] [ref=e489]
+              - button "Add" [ref=e490]
+            - generic [ref=e492]:
+              - paragraph [ref=e493]: 0 of 4 done
+              - progressbar "Tasks completed today" [ref=e494]
+            - list [ref=e495]:
+              - listitem [ref=e496]:
+                - generic [ref=e497] [cursor=pointer]:
+                  - checkbox "Draft contract redlines 10:00 AM · Tidewater Freight" [ref=e498]
+                  - generic [ref=e500]:
+                    - generic [ref=e501]: Draft contract redlines
+                    - generic [ref=e502]: 10:00 AM · Tidewater Freight
+                - img "Hanna Lindqvist" [ref=e506]
+              - listitem [ref=e507]:
+                - generic [ref=e508] [cursor=pointer]:
+                  - checkbox "Discovery call 10:30 AM · Tidewater Freight" [ref=e509]
+                  - generic [ref=e511]:
+                    - generic [ref=e512]: Discovery call
+                    - generic [ref=e513]: 10:30 AM · Tidewater Freight
+                - img "Sofia Reyes" [ref=e517]
+              - listitem [ref=e518]:
+                - generic [ref=e519] [cursor=pointer]:
+                  - checkbox "Kick-off workshop 11:30 AM · Orchard Row Bank" [ref=e520]
+                  - generic [ref=e522]:
+                    - generic [ref=e523]: Kick-off workshop
+                    - generic [ref=e524]: 11:30 AM · Orchard Row Bank
+                - img "Rohan Mehta" [ref=e531]
+              - listitem [ref=e532]:
+                - generic [ref=e533] [cursor=pointer]:
+                  - checkbox "Check in on pilot 4:30 PM · Fennick & Rowe" [ref=e534]
+                  - generic [ref=e536]:
+                    - generic [ref=e537]: Check in on pilot
+                    - generic [ref=e538]: 4:30 PM · Fennick & Rowe
+                - img "Theo Adeyemi" [ref=e542]
+            - generic [ref=e543]:
+              - heading "Coming up" [level=3] [ref=e544]
+              - button "Open schedule" [ref=e545]
+            - list [ref=e546]:
+              - listitem [ref=e547]:
+                - generic [ref=e548]: Tue27
+                - generic [ref=e549]:
+                  - generic [ref=e550]: Renewal conversation
+                  - generic [ref=e551]: 9:30 AM · Brisa Travel
+              - listitem [ref=e552]:
+                - generic [ref=e553]: Tue27
+                - generic [ref=e554]:
+                  - generic [ref=e555]: Security walkthrough
+                  - generic [ref=e556]: 10:00 AM · Nimbus Health
+              - listitem [ref=e557]:
+                - generic [ref=e558]: Tue27
+                - generic [ref=e559]:
+                  - generic [ref=e560]: Draft contract redlines
+                  - generic [ref=e561]: 2:00 PM · Atlas Ceramics
+          - region [ref=e562]:
+            - generic [ref=e563]:
+              - heading "Recent activity" [level=2] [ref=e564]
+              - generic [ref=e565]:
+                - button "Open inbox" [ref=e566]
+                - button "Open activity feed" [ref=e570]
+            - list [ref=e574]:
+              - listitem [ref=e575]:
+                - img "Sofia Reyes" [ref=e576]
+                - generic [ref=e577]:
+                  - paragraph [ref=e578]: Sofia moved Pilot rollout, 3 sites to Closing · Tidewater Freight
+                  - paragraph [ref=e579]: 6 min ago
+              - listitem [ref=e586]:
+                - img "Theo Adeyemi" [ref=e587]
+                - generic [ref=e588]:
+                  - paragraph [ref=e589]: Theo sent the revised proposal · Brightmoor Clinics
+                  - paragraph [ref=e590]: 53 min ago
+              - listitem [ref=e594]:
+                - img "Sofia Reyes" [ref=e595]
+                - generic [ref=e596]:
+                  - paragraph [ref=e597]: Sofia logged a 24 min call · Lumio Solar
+                  - paragraph [ref=e598]: 2 h ago
+              - listitem [ref=e601]:
+                - img "Rohan Mehta" [ref=e602]
+                - generic [ref=e603]:
+                  - paragraph [ref=e604]: Rohan marked invoice RP-2403 as paid · Fennick & Rowe
+                  - paragraph [ref=e605]: 2 h ago
+              - listitem [ref=e609]:
+                - img "Hanna Lindqvist" [ref=e610]
+                - generic [ref=e611]:
+                  - paragraph [ref=e612]: Hanna finished Data import · Aldercrest Hotels
+                  - paragraph [ref=e613]: 3 h ago
+              - listitem [ref=e616]:
+                - img "Amara Okafor" [ref=e617]
+                - generic [ref=e618]:
+                  - paragraph [ref=e619]: Amara won Annual renewal · Orchard Row Bank
+                  - paragraph [ref=e620]: 4 h ago
+  - button "Open Next.js Dev Tools" [ref=e632] [cursor=pointer]
