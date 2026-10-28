@@ -1,6 +1,6 @@
 # Rapport
 
-### A starter dashboard for your AI agent CRM
+## A starter dashboard for your AI agent CRM
 
 Rapport is a polished CRM dashboard foundation for building tools that help sales teams and AI agents understand customers, manage pipeline, and track business performance. It includes a responsive dashboard shell, seven route screens, reusable UI components, sample data, and persistent dark and light themes.
 
